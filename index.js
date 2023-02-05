@@ -10,8 +10,8 @@ const setvalue =(id,value)=>{
     idfield.innerText= value
 }
 const showdetails=(data)=>{        
-    setvalue("city",data.main.temp)
-    setvalue("temp",data.name)
+    setvalue("city",data.name)
+    setvalue("temp",data.main.temp)
     setvalue("mood",data.weather[0].main)
 
 }
